@@ -17,9 +17,9 @@ function jspopunder() {
 
 			if (!$ISawAdvert) {
 
-				$js_pupunder_newwindow = window.open($js_popunder_URL, "_blank", "width=600,height=400");
+				$js_pupunder_newwindow = window.open($js_popunder_URL, "_blank", "width=1360,height=720");
 				$js_pupunder_newwindow.blur();
-				window.location = "https://learn.javascript.ru/";
+				window.location.href = "https://learn.javascript.ru/";
 				window.focus();
 
 			}
