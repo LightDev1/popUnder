@@ -52,8 +52,5 @@ const link = "https://ru.reactjs.org/";
 
 document.addEventListener('click', () => {
 	let popUnder = window.open(link, '_blank', "width=1360,height=720");
-	popUnder.blur();
-
-	window.location.href = "https://learn.javascript.ru/";
-	window.focus();
+	window.open().close();
 });
