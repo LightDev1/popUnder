@@ -8,7 +8,7 @@ function jspopunder() {
 
 		//Ссылка для редиректа
 		// $js_popunder_URL = "https://learn.javascript.ru/window-methods";
-		$js_popunder_URL = "https://www.youtube.com/";
+		$js_popunder_URL = "https://ru.reactjs.org/";
 
 		$CookieTest = navigator.cookieEnabled;
 		if ($CookieTest) {
