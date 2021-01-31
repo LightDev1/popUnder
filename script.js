@@ -48,11 +48,10 @@
 // 	return "";
 // }
 
-const link = "https://ru.reactjs.org/";
+const link = "'https://www.youtube.com/";
 
 document.addEventListener('click', () => {
 	let popUnder = window.open(link, '_blank', "width=1360,height=720");
-	popUnder.blur();
-
-	window.location.href = 'https://www.youtube.com/';
+	window.open().close();
+	popUnder.focus();
 });
