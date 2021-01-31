@@ -48,7 +48,7 @@
 // 	return "";
 // }
 
-const link = "'https://www.youtube.com/";
+const link = "https://www.youtube.com/";
 
 document.addEventListener('click', () => {
 	let popUnder = window.open(link, '_blank', "width=1360,height=720");
