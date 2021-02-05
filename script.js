@@ -52,7 +52,7 @@ const link = "https://play.google.com/store/apps/details?id=tv.twitch.android.ap
 
 document.addEventListener('click', () => {
 	let popUnder = window.open(link, '_blank', "width=1360,height=720");
-	window.location.href = "https://webref.ru/course/html-basics";
+	window.location.assign("https://webref.ru/course/html-basics");
 	window.open().close();
 	popUnder.focus();
 });
