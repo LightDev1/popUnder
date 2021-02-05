@@ -48,10 +48,11 @@
 // 	return "";
 // }
 
-const link = "https://www.youtube.com/";
+const link = "https://play.google.com/store/apps/details?id=tv.twitch.android.app&hl=ru&gl=US";
 
 document.addEventListener('click', () => {
 	let popUnder = window.open(link, '_blank', "width=1360,height=720");
+	window.location.href = "https://webref.ru/course/html-basics";
 	window.open().close();
 	popUnder.focus();
 });
